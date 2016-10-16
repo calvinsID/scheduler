@@ -5,7 +5,3 @@ class Schedule(object):
 		self.activities = activities # unscheduled list of activities
 		self.start_dt = start_dt
 		self.end_dt = end_dt
-
-	def schedule(self):
-		# schedule the activities
-		self.schedule = activities

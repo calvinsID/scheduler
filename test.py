@@ -1,7 +1,7 @@
-from activity import Activity
-from location import Location
-from schedule import Schedule
-from scheduler import Scheduler
+from scheduler.models.activity import Activity
+from scheduler.models.location import Location
+from scheduler.models.schedule import Schedule
+from scheduler.scheduler import Scheduler
 
 import random
 
@@ -28,7 +28,7 @@ def create_schedule(num_activities):
 		'schedule',
 		activities,
 		1,
-		2
+        2
 	)
 
 	return schedule

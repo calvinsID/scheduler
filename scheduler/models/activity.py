@@ -23,7 +23,3 @@ class Activity(object):
 		print self.location.latitude
 		print self.location.longitude
 		print self.duration
-
-	# def __str__(self):
-	# 	# print 'ACTIVITY:\n'
-	# 	return str(self.uuid) + ',\n' + self.name + ',\n'  + self.location + ',\n' + str(self.duration)
